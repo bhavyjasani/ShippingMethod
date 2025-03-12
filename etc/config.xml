@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <Men>
+                <active>1</active>
+                <sallowspecific>0</sallowspecific>
+                <model>Dolphin\ShippingMethod\Model\Carrier\Men</model>
+                <name>Men Shipping</name>
+                <handling_type>F</handling_type>
+                <price>15.00</price>
+                <title>Men Shipping Method</title>
+                <type>O</type>
+                <specificerrmsg>This shipping method is not available for this category now.</specificerrmsg>
+            </Men>
+            <Women>
+                <active>1</active>
+                <sallowspecific>0</sallowspecific>
+                <model>Dolphin\ShippingMethod\Model\Carrier\Women</model>
+                <name>Women Shipping</name>
+                <handling_type>F</handling_type>
+                <price>15.00</price>
+                <title>Women Shipping Method</title>
+                <type>O</type>
+                <specificerrmsg>This shipping method is not available for this category now.</specificerrmsg>
+            </Women>
+        </carriers>
+    </default>
+</config>
